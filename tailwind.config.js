@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./Components/**/*.{js,ts,jsx,tsx}",
+    "./public/**/*.html",
   ],
   theme: {
     extend: {
@@ -24,3 +25,11 @@ module.exports = {
   },
   plugins: [],
 }
+module.exports = {
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./public/**/*.html",
+  ],
+  plugins: [],
+  theme: {},
+};
