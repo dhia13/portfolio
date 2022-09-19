@@ -54,7 +54,7 @@ function MySkills() {
     return (
         <div className='flex justify-center items-center w-full h-full  flex-col'>
             <div className="h-[500px] flex justify-center items-center flex-wrap w-[250px] overflow-scroll
-            sm:w-[500px] md:w-[500px] lg:w-[800px] mt-[80px]">
+            sm:w-[500px] md:w-[500px] lg:w-[800px] mt-[80px] lg:overflow-hidden">
                 {
                     skills.map(skill => <div className="w-[200px] h-[60px] my-1">
                         <SingleSkill title={skill.title} img={skill.img} />
