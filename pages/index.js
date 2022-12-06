@@ -49,7 +49,7 @@ export default function Home() {
     }
   }
   return (
-    <div className="overflow-hidden w-screen h-screen relative" tabIndex={0} onKeyDown={(e) => handleKeyDown(e)} >
+    <div className="overflow-hidden w-screen h-screen relative bg-black" tabIndex={0} onKeyDown={(e) => handleKeyDown(e)} >
       <MatrixBg />
       <div className="w-full h-[80px]">
         <Navbar setCurrent={setCurrent} current={current} />
