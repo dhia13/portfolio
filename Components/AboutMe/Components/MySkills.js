@@ -39,6 +39,10 @@ function MySkills() {
             title: 'Git'
         },
         {
+            img: 'images/github.png',
+            title: 'Github'
+        },
+        {
             img: 'images/express.png',
             title: 'Express'
         },
