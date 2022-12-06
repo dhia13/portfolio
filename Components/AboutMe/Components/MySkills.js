@@ -3,7 +3,7 @@ import SingleSkill from "./SingleSkill"
 function MySkills() {
     const skills = [
         {
-            img: 'images/css.png',
+            img: 'images/css3.png',
             title: 'CSS3'
         },
         {
@@ -11,7 +11,7 @@ function MySkills() {
             title: 'HTML5'
         },
         {
-            img: 'images/js.png',
+            img: 'images/javascript.png',
             title: 'JavaScript'
         },
         {
@@ -23,11 +23,11 @@ function MySkills() {
             title: 'Redux'
         },
         {
-            img: 'images/next.png',
+            img: 'images/nextjs.png',
             title: 'NextJs'
         },
         {
-            img: 'images/tailwindcss.png',
+            img: 'images/tailwind.png',
             title: 'TailWind'
         },
         {
@@ -39,7 +39,7 @@ function MySkills() {
             title: 'Git'
         },
         {
-            img: 'images/github.png',
+            img: 'images/github1.png',
             title: 'Github'
         },
         {
