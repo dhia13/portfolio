@@ -3,11 +3,11 @@ import SingleSkill from "./SingleSkill"
 function MySkills() {
     const skills = [
         {
-            img: 'images/css3.png',
+            img: 'images/css.png',
             title: 'CSS3'
         },
         {
-            img: 'images/html.png',
+            img: 'images/html5.png',
             title: 'HTML5'
         },
         {
@@ -23,11 +23,11 @@ function MySkills() {
             title: 'Redux'
         },
         {
-            img: 'images/nextjs.png',
+            img: 'images/next.png',
             title: 'NextJs'
         },
         {
-            img: 'images/tailwind.png',
+            img: 'images/tailwindcss.png',
             title: 'TailWind'
         },
         {
@@ -55,7 +55,7 @@ function MySkills() {
             title: 'Node'
         },
         {
-            img: 'images/mongodb.png',
+            img: 'images/mongo.png',
             title: 'MongoDb'
         },
         {
