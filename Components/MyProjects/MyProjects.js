@@ -2,19 +2,25 @@
 function MyProjects() {
     return (
         <div className="w-full h-full bg-black">
-            <div className='flex justify-center items-center w-full h-full flex-col lg:justify-start'>
+            <div className='flex justify-center items-center w-full h-full flex-col lg:justify-start '>
                 {/* project introduction */}
-                <div className='text-white w-[350px] flex flex-col justify-canter items-start h-[300px] 
-                mx-2 rounded-md mt-2 lg-w-[600px]'>
-                    <div className="flex w-full justify-center items-center text-center">
-                        <h1 className='text-3xl text-white mt-4 mx-2 font-poppins'>Hermes Library Project</h1>
+                <div className="w-[1000px] h-[80px] bg-green-200 z-50 mt-4"></div>
+                <div className='text-white w-[1100px] flex flex-col justify-canter items-start h-[650px] 
+                mx-2 rounded-md mt-10  bg-white z-50 relative'>
+                    <img src='./images/matrix.gif' className='w-full h-full rounded-md relative' />
+                    <div className="h-[70px] bottom-[10px] w-[150px] absolute z-60 right-[480px] 
+                    flex justify-center items-center gap-4">
+                        <div className='flex justify-center items-center h-[60px] w-[60px]'>
+                            <a href='https://github.com/dhia13' target="_blank">
+                                <img src='/images/github.png' alt='github' className='w-[48px] h-[48px] hover:w-[58px] hover:h-[58px]' />
+                            </a>
+                        </div>
+                        <div className='flex justify-center items-center h-[60px] w-[60px]'>
+                            <a href='https://github.com/dhia13' target="_blank">
+                                <img src='/images/globe.png' alt='github' className='w-[48px] h-[48px] hover:w-[58px] hover:h-[58px]' />
+                            </a>
+                        </div>
                     </div>
-                    <p className='mx-2 mt-2 text-center font-poppins'>Project Description Project Description Project Description Project Description
-                    </p>
-                    <p className='font-poppins mx-2 mt-1 text-center w-full'>ProjectLink.com</p>
-                    <p className='font-poppins mx-2 mt-1 text-center w-full'>ProjectRepo.github</p>
-                </div>
-                <div className='w-[300px] ml-[20px] h-[200px] lg-w-[600px] lg-h-[300px] bg-red-300 rounded-md'>
                 </div>
             </div>
         </div>

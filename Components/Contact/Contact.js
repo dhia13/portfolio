@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { useState } from 'react'
 function Contact() {
     const [name, setName] = useState('')
@@ -108,15 +109,6 @@ function Contact() {
                             @: dhiachabane@yahoo.fr
                         </p>
                     </div>
-                </div>
-            </div>
-            {/* Media Links  Floater*/}
-            <div className='absolute w-[50px] h-[100px] top-1/4 right-0 bg-black rounded-tl-md rounded-bl-md'>
-                <div className='flex justify-center items-center h-[50px] w-[50px]'>
-                    <img src='/images/linkedin.png' alt='linkedin' className='w-[28px] h-[28px] hover:w-[36px] hover:h-[36px]' />
-                </div>
-                <div className='flex justify-center items-center h-[50px] w-[50px]'>
-                    <img src='/images/github.png' alt='github' className='w-[28px] h-[28px] hover:w-[36px] hover:h-[36px]' />
                 </div>
             </div>
         </div>

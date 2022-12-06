@@ -1,15 +1,15 @@
+import { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 
 function Header() {
-
     return (
         <div className='w-screen h-full bg-black relative flex justify-start min-w-screen min-h-[800px] items-center'>
-            <div className="w-screen ml-[60px] h-[300px] z-30 ">
-                <div className="relative text-3xl text-green-500 font-bold font-poppins">
+            <div className="w-screen ml-[60px] h-[300px] z-50 ">
+                <div className="relative text-4xl text-cyan-500 font-bold font-poppins">
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter.typeString("Hello There")
-                                .changeDelay('100')
+                                .changeDelay('60')
                                 .pauseFor(1000)
                                 .deleteAll()
                                 .typeString("Welcome")
@@ -17,13 +17,12 @@ function Header() {
                         }}
                     />
                 </div>
-                <div className='text-2xl text-white font-poppins'>
-                    <Typewriter onInit={(typewriter) => {
-                        typewriter.pauseFor('2500').changeDelay('50').typeString('I am Dhia A Fullstack Developer').start()
-                    }} />
+                <div className='text-4xl text-white font-poppins flex gap-2 mt-4'>
+                    <p className='font-bold'>I am a </p>
+                    <p className='text-cyan-400 text-4xl font-extrabold'>FullStack</p>
+                    <p className='font-bold'>Developer</p>
                 </div>
             </div>
-            <img src='images/matrix.gif' alt="my-gif" className="w-screen h-screen z-10 absolute top-0 right-0" />
         </div >
     )
 }

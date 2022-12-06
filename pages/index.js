@@ -4,6 +4,8 @@ import Header from '../Components/Header/Header'
 import AboutMe from '../Components/AboutMe/AboutMe'
 import MyProjects from '../Components/MyProjects/MyProjects'
 import Contact from '../Components/Contact/Contact'
+import ContactFloters from '../Components/ContactFloters'
+import MatrixBg from '../Components/Background/MatrixBg/MatrixBg'
 export default function Home() {
   const [current, setCurrent] = useState('header')
   const [currentAbout, setCurrentAbout] = useState('about')
@@ -47,7 +49,8 @@ export default function Home() {
     }
   }
   return (
-    <div className="overflow-hidden relative w-screen h-screen" tabIndex={0} onKeyDown={(e) => handleKeyDown(e)} >
+    <div className="overflow-hidden w-screen h-screen relative" tabIndex={0} onKeyDown={(e) => handleKeyDown(e)} >
+      <MatrixBg />
       <div className="w-full h-[80px]">
         <Navbar setCurrent={setCurrent} current={current} />
       </div>
@@ -79,8 +82,8 @@ export default function Home() {
           <Contact />
         </div>
       }
-      {/* floaters */}
-      <div className='w-[24px] absolute top-1/2 left-[6px] flex justify-center items-center flex-col z-30'>
+      {/* Browing status dots floaters */}
+      <div className='w-[24px] absolute top-1/2 left-[6px] flex justify-center items-center flex-col z-50'>
         <div className="w-[24px] h-[24px] flex justify-center items-center cursor-pointer" onClick={() => setCurrent('header')}>
           <img src={current === 'header' ? '/images/circle-full.png' : '/images/circle-empty.png'} alt='circle' className="w-[16px] h-[16px]" />
         </div>
@@ -93,8 +96,8 @@ export default function Home() {
         <div className="w-[24px] h-[24px] flex justify-center items-center cursor-pointer" onClick={() => setCurrent('contact')}>
           <img src={current === 'contact' ? '/images/circle-full.png' : '/images/circle-empty.png'} alt='circle' className="w-[16px] h-[16px]" />
         </div>
-
       </div>
+      <ContactFloters />
     </div >
   )
 }

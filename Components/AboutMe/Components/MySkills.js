@@ -49,20 +49,28 @@ function MySkills() {
         {
             img: 'images/node.png',
             title: 'Node'
+        },
+        {
+            img: 'images/mongodb.png',
+            title: 'MongoDb'
+        },
+        {
+            img: 'images/mysql.png',
+            title: 'MySQL'
         }
     ]
     return (
         <div className='flex justify-center items-center w-full h-full  flex-col'>
             <div className="h-[500px] flex justify-center items-center flex-wrap w-[250px] overflow-scroll
-            sm:w-[500px] md:w-[500px] lg:w-[800px] mt-[80px] lg:overflow-hidden">
+            sm:w-[500px] md:w-[500px] lg:w-[800px] mt-[80px] lg:overflow-hidden z-50">
                 {
                     skills.map(skill => <div className="w-[200px] h-[60px] my-1">
                         <SingleSkill title={skill.title} img={skill.img} />
                     </div>)
                 }
             </div>
-            <div className="w-full flex justify-center items-center">
-                <p className="text-white mt-2 font-poppins">And much more</p>
+            <div className="w-full flex justify-center items-center z-50">
+                <p className="text-white mt-2 text-xl font-poppins">And so much more</p>
             </div>
         </div >
     )
