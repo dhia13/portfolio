@@ -1,8 +1,8 @@
 
-function MyProjects() {
+function MyProjects({ current }) {
     return (
-        <div className="w-full h-full bg-black">
-            <div className='flex justify-center items-center w-full h-full flex-col lg:justify-start '>
+        <div className={`w-full h-full bg-black`}>
+            <div className='flex justify-center items-center w-full h-full flex-col lg:justify-start'>
                 {/* project introduction */}
                 <div className="w-[1000px] h-[80px] bg-green-200 z-50 mt-4"></div>
                 <div className='text-white w-[1100px] flex flex-col justify-canter items-start h-[650px] 

@@ -64,7 +64,7 @@ function MySkills() {
         }
     ]
     return (
-        <div className='flex justify-center items-center w-full h-full  flex-col'>
+        <div className='flex justify-center items-center w-screen h-full  flex-col'>
             <div className="h-[500px] flex justify-center items-center flex-wrap w-[250px] overflow-scroll
             sm:w-[500px] md:w-[500px] lg:w-[800px] mt-[80px] lg:overflow-hidden z-50">
                 {
