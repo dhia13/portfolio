@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ['"Roboto+Mono"', ...defaultTheme.fontFamily.sans],
-        thickRoboto: ["Roboto:wght@700", ...defaultTheme.fontFamily.sans],
+        roboto: ['"Roboto"', ...defaultTheme.fontFamily.sans],
+        pressStart: ['"Press Start 2P"', "cursive"],
       },
     },
   },
