@@ -14,7 +14,7 @@ const ContactFloters = () => {
        justify-start items-center`}
     >
       <a
-        className={`flex justify-start items-center gap-4 ${
+        className={`flex justify-start items-center gap-2 ${
           open && "w-[150px]"
         } h-[50px]`}
         href="https://github.com/dhia13"
@@ -25,7 +25,11 @@ const ContactFloters = () => {
           alt="Github"
           className="w-[28px] h-[28px]"
         />
-        {open && <p className="text-white font-pressStart text-xs">Github</p>}
+        {open && (
+          <p className="text-white font-pressStart text-xs hover:text-[#04E949]">
+            Github
+          </p>
+        )}
       </a>
       <a
         className={`flex justify-start items-center gap-2 ${
@@ -39,7 +43,11 @@ const ContactFloters = () => {
           alt="linkedin"
           className="w-[28px] h-[28px]"
         />
-        {open && <p className="text-white font-pressStart text-xs">Linkedin</p>}
+        {open && (
+          <p className="text-white font-pressStart text-xs hover:text-[#04E949]">
+            Linkedin
+          </p>
+        )}
       </a>
       <a
         className={`flex justify-start items-center gap-2 ${
@@ -53,7 +61,11 @@ const ContactFloters = () => {
           alt="telegram"
           className="w-[28px] h-[28px]"
         />
-        {open && <p className="text-white font-pressStart text-xs">Telegram</p>}
+        {open && (
+          <p className="text-white font-pressStart text-xs hover:text-[#04E949]">
+            Telegram
+          </p>
+        )}
       </a>
       <a
         className={`flex justify-start items-center gap-2 ${
@@ -67,7 +79,11 @@ const ContactFloters = () => {
           alt="CodeWars"
           className="w-[28px] h-[28px]"
         />
-        {open && <p className="text-white font-pressStart text-xs">CodeWars</p>}
+        {open && (
+          <p className="text-white font-pressStart text-xs hover:text-[#04E949]">
+            CodeWars
+          </p>
+        )}
       </a>
       <a
         className={`flex justify-start items-center gap-2 ${
@@ -82,7 +98,9 @@ const ContactFloters = () => {
           className="w-[28px] h-[28px]"
         />
         {open && (
-          <p className="text-white font-pressStart text-xs">Messenger</p>
+          <p className="text-white font-pressStart text-xs hover:text-[#04E949]">
+            Messenger
+          </p>
         )}
       </a>
       <a
@@ -97,7 +115,11 @@ const ContactFloters = () => {
           alt="email"
           className="w-[28px] h-[28px]"
         />
-        {open && <p className="text-white font-pressStart text-xs">Email</p>}
+        {open && (
+          <p className="text-white font-pressStart text-xs hover:text-[#04E949]">
+            Email
+          </p>
+        )}
       </a>
     </div>
   );
