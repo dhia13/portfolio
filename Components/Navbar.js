@@ -9,7 +9,7 @@ function Navbar({ setCurrent, current }) {
         <p
           className={` ${
             current === "header" ? "text-[#4dba87]" : "text-[#475569]"
-          } px-4`}
+          } px-4 hover:text-[#03f490]`}
         >{`< Kizaru />`}</p>
       </button>
       {/* Navigation */}
@@ -21,7 +21,7 @@ function Navbar({ setCurrent, current }) {
           <p
             className={`${
               current === "aboutMe" ? "text-[#4dba87]" : "text-[#475569]"
-            }`}
+            } hover:text-[#03f490]`}
           >
             {`< About />`}
           </p>
@@ -33,7 +33,7 @@ function Navbar({ setCurrent, current }) {
           <p
             className={`${
               current === "myProjects" ? "text-[#4dba87]" : "text-[#475569]"
-            }`}
+            } hover:text-[#03f490]`}
           >
             {`< Projects />`}
           </p>
