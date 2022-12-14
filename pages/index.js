@@ -45,6 +45,7 @@ export default function Home() {
       }
     }
   };
+  console.log(current);
   return (
     <div
       className="overflow-hidden w-screen h-screen relative bg-black font-roboto"
@@ -54,16 +55,31 @@ export default function Home() {
       <MatrixBg />
       <Navbar setCurrent={setCurrent} current={current} />
       <div className="w-screen h-[calc(100%_-_1rem)] relative">
-        {/* {(current==='header'&&<Header current={current} />)} */}
-        {current === "header" && <Header />}
-        {current === "myProjects" && <MyProjects current={current} />}
-        {current === "aboutMe" && (
+        <div
+          className={`absolute w-full h-full ${
+            current === "header" ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <Header current={current} />
+        </div>
+        <div
+          className={`absolute w-full h-full ${
+            current === "myProjects" ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <MyProjects current={current} />
+        </div>
+        <div
+          className={`absolute  w-full h-full ${
+            current === "aboutMe" ? "opacity-100" : "opacity-0"
+          }`}
+        >
           <AboutMe
             currentAbout={currentAbout}
             setCurrentAbout={setCurrentAbout}
             current={current}
           />
-        )}
+        </div>
       </div>
       {/* Browing status dots floaters */}
       <PageIndicator setValue={setCurrent} value={current} />
