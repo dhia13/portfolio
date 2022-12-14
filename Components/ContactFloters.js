@@ -6,7 +6,7 @@ const ContactFloters = () => {
     <div
       onMouseMove={() => setOpen(true)}
       onMouseOut={() => setOpen(false)}
-      className={`absolute z-50 w-[50px] top-1/3 right-0 ${
+      className={`absolute z-50 w-[50px] top-[200px ] right-0 ${
         !open && "opacity-50 w-[50px]"
       }  ${
         open && "opacity-100 w-[170px]"

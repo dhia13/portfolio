@@ -52,7 +52,7 @@ export default function Home() {
       tabIndex={0}
       onKeyDown={(e) => handleKeyDown(e)}
     >
-      <MatrixBg />
+      {/* <MatrixBg /> */}
       <Navbar setCurrent={setCurrent} current={current} />
       <div className="w-screen h-[calc(100%_-_1rem)] relative">
         <div

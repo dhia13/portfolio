@@ -9,8 +9,6 @@
   left:60px;
 }
 .text1 {
-  font-size: 80px;
-  font-weight: 700;
   color: rgb(255, 255, 255);
   letter-spacing: 5px;
   cursor: pointer;
@@ -23,8 +21,6 @@
   white-space: nowrap;
 }
 .text2 {
-  font-size: 70px;
-  font-weight: 700;
   color: rgb(255, 255, 255);
   letter-spacing: 5px;
   cursor: pointer;

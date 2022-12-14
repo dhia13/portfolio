@@ -23,13 +23,13 @@ function Navbar({ setCurrent, current }) {
         <p
           className={` ${
             current === "header" ? "text-[#4dba87]" : "text-[#475569]"
-          } px-4 hover:text-[#03f490]`}
+          } px-4 hover:text-[#03f490] text-base xl:2xl:lg:text-2xl md:text-xl sm:text-lg`}
         >{`< Kizaru />`}</p>
       </button>
       {/* Navigation */}
       {indecator && (
         <div
-          className={`z-50 text-sm font-pressStart text-white cursor-pointer drop-shadow-glow`}
+          className={`z-50 text-sm font-pressStart text-white cursor-pointer drop-shadow-glow sm:hidden`}
         >
           Use Keyboard to navigate Easier
         </div>
@@ -42,7 +42,7 @@ function Navbar({ setCurrent, current }) {
           <p
             className={`${
               current === "aboutMe" ? "text-[#4dba87]" : "text-[#475569]"
-            } hover:text-[#03f490]`}
+            } hover:text-[#03f490] text-base xl:2xl:lg:text-2xl md:text-xl sm:text-lg`}
           >
             {`< About />`}
           </p>
@@ -54,7 +54,7 @@ function Navbar({ setCurrent, current }) {
           <p
             className={`${
               current === "myProjects" ? "text-[#4dba87]" : "text-[#475569]"
-            } hover:text-[#03f490]`}
+            } hover:text-[#03f490] text-base xl:2xl:lg:text-2xl md:text-xl sm:text-lg`}
           >
             {`< Projects />`}
           </p>
