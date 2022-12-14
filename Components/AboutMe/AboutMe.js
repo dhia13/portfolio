@@ -3,8 +3,8 @@ import About from "./Components/About";
 function AboutMe({ currentAbout, setCurrentAbout }) {
   return (
     <div className={`w-full h-full pt-[20px]`}>
-      <div className="text-white w-full h-[60px] flex justify-center items-center bg-red-300 font-roboto">
-        <div className="flex w-full justify-center items-center gap-4 h-[40px] z-50">
+      <div className="text-white w-full h-[60px] flex justify-center items-center mt-[40px]">
+        <div className="flex w-full justify-center items-center gap-10 h-[40px] z-50">
           <button onClick={() => setCurrentAbout("about")}>
             <p
               className={`${
