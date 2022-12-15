@@ -1,18 +1,6 @@
 import { useEffect, useState } from "react";
 
 function Navbar({ setCurrent, current }) {
-  const [indecator, setIndecator] = useState(true);
-
-  useEffect(() => {
-    const pingAndFade = () => {
-      if (indecator === true)
-        setTimeout(() => {
-          setIndecator(false);
-        }, 10000);
-    };
-    pingAndFade();
-  }, [indecator]);
-
   return (
     <nav className="w-full h-[80px] flex justify-between items-center font-bold text-2xl font-roboto">
       {/* Logo */}
@@ -27,13 +15,6 @@ function Navbar({ setCurrent, current }) {
         >{`< Kizaru />`}</p>
       </button>
       {/* Navigation */}
-      {indecator && (
-        <div
-          className={`z-50 text-sm font-pressStart text-white cursor-pointer drop-shadow-glow sm:hidden`}
-        >
-          Use Keyboard to navigate Easier
-        </div>
-      )}
       <div className="h-full flex justify-center items-center mr-4 z-50">
         <button
           onClick={() => setCurrent("aboutMe")}

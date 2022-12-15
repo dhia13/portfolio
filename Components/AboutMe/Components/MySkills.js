@@ -66,8 +66,8 @@ function MySkills() {
   return (
     <div className="flex justify-center items-center w-screen h-full  flex-col">
       <div
-        className="h-[500px] flex justify-center items-center flex-wrap w-[250px] overflow-scroll
-            sm:w-[500px] md:w-[500px] lg:w-[800px] mt-[80px] lg:overflow-hidden z-50"
+        className="h-[500px] flex justify-center items-center flex-wrap w-[250px] overflow-scroll overflow-x-hidden
+            sm:w-[500px] md:w-[500px] lg:w-[800px] lg:overflow-hidden z-50 bg-green=300"
       >
         {skills.map((skill) => (
           <div key={skill.title} className="w-[200px] h-[60px] my-1">
@@ -76,7 +76,9 @@ function MySkills() {
         ))}
       </div>
       <div className="w-full flex justify-center items-center z-50">
-        <p className="text-white mt-2 text-xl font-poppins">And so much more</p>
+        <p className="text-white mt-[20px] text-xl font-poppins ">
+          And so much more
+        </p>
       </div>
     </div>
   );
