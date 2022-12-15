@@ -1,7 +1,7 @@
 function About() {
   return (
     <div>
-      <div className="flex justify-center items-start w-screen h-full z-60 lg:mt-[150px]">
+      <div className="flex justify-center items-start w-screen h-full z-60 lg:mt-[100px]">
         <div className="w-full flex justify-center items-center h-[600px]">
           <div
             className="flex  lg:items-start  xl:items-start 2xl:items-start flex-col flex-wrap  my-auto p-[20px] lg:w-[1000px] sm:w-[800px]
