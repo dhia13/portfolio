@@ -16,7 +16,7 @@ function MySkills() {
     },
     {
       img: "images/react.png",
-      title: "React",
+      title: "React/React-Native",
     },
     {
       img: "images/redux.png",

@@ -14,8 +14,8 @@ function About() {
               My Name is Sahhar Dhia eddine.
             </p>
             <p className="text-md lg:font-poppins lg:text-2xl font-roboto">
-              I am a fullstack developer and a programmer with over 3 years
-              experience, I have mastered the mern-stack and software
+              I am a fullstack developer app/mobile and a programmer with over 3
+              years experience, I have mastered the mern-stack and software
               engineering, Leveled-up every skill that is required to make
               website apps from scratch, Capable of solving complex problems and
               debug other developers code, I'm a fast learner ready to dive into
