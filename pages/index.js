@@ -7,7 +7,7 @@ import ContactFloters from "../Components/ContactFloters";
 import MatrixBg from "../Components/Background/MatrixBg/MatrixBg";
 import PageIndicator from "../Components/PageIndicator";
 export default function Home() {
-  const [current, setCurrent] = useState("myProjects");
+  const [current, setCurrent] = useState("header");
   const [currentAbout, setCurrentAbout] = useState("about");
   const handleKeyDown = (e) => {
     if (e.key === "ArrowDown") {
