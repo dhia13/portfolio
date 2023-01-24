@@ -7,7 +7,7 @@ import ContactFloters from "../Components/ContactFloters";
 import MatrixBg from "../Components/Background/MatrixBg/MatrixBg";
 import PageIndicator from "../Components/PageIndicator";
 export default function Home() {
-  const [current, setCurrent] = useState("header");
+  const [current, setCurrent] = useState("myProjects");
   const [currentAbout, setCurrentAbout] = useState("about");
   const handleKeyDown = (e) => {
     if (e.key === "ArrowDown") {
@@ -45,7 +45,6 @@ export default function Home() {
       }
     }
   };
-  console.log(current);
   return (
     <div
       className="overflow-hidden w-screen h-screen relative bg-black font-roboto"

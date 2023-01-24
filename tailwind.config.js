@@ -15,6 +15,7 @@ module.exports = {
         events: "url('../public/images/events.png')",
         healthier: "url('../public/images/healthier.png')",
         soon: "url('../public/images/soon.png')",
+        qcs: "url('../public/images/Qcs.png')",
       },
       dropShadow: {
         glow: [
